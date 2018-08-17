@@ -1,1 +1,4 @@
 # Chat App
+A client-server based chat application that makes use of TCP sockets. I specified my own application layer protocol to support the client-server architecture, and then implemented a chat server that will manage the interaction between chatting clients. Also implemented is a chat client that allows one or more pairs of users to run on diﬀerent hosts and exchange messages in real-time. The client’s interface is a GUI. An important step in protocol design involves deﬁning the framework of communication for the intended application. This entails specifying the communications requirements and constraints, such as the required speed of communication (e.g real-time interaction), reliability of exchanges, bandwidth or connectivity limitations, as well as
+1
+authentication and conﬁdentiality issues, among others. One communication constraint in many developing countries is bandwidth.
